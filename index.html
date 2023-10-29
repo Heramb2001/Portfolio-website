@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heramb Bharambe - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <br><br><br>
+    <section class="shadow navbar-section fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg" aria-label="Offcanvas navbar large">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img src="icons/HB_SVG.svg" alt="Bootstrap" width="45" height="45"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Menu</h5>
+                      <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                        <li class="nav-item nav-li">
+                          <a class="nav-link nav-button" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item nav-li">
+                          <a class="nav-link nav-button" href="#about">About</a>
+                        </li>
+                        <li class="nav-item nav-li">
+                            <a class="nav-link nav-button" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item nav-li">
+                            <a class="nav-link nav-button" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item nav-li">
+                            <a class="nav-link nav-button" href="#contact">Contact</a>
+                        </li>
+                      </ul>
+                      <div class="d-flex align-items-center">
+                        <a href="docs/Heramb_ML_resume.pdf" target="_blank"><button type="button" class="btn button-sec">Resume</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </section>
+
+
+    <!-- Hero section -->
+
+    <div class="container main-container">
+        <div class="px-4 py-5 my-5 text-center" id="home">
+          <img src="images/Herambicon.jpeg" alt="avatar" class="my-avatar" height=200px>
+          <br><br><br>
+          <h1 class="display-6 fw-bold hero-text">Hello everyone!</h1>
+          <h1 class="display-4 fw-bold hero-text">I am <span class="my-name">Heramb Bharambe</span>,</h1>
+          <h1 class="display-6 fw-bold hero-text">A passionate Deep Learning and Machine Learning learner.</h1>
+        </div>
+    </div>
+
+
+
+    <!-- About section -->
+
+    <div class="container col-xxl-8 px-4 py-5 main-container" id="about">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div></div>
+        <div></div>
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="images/About_Image.svg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h2 class="display-6 fw-bold text-body-emphasis lh-1 mb-3">About me</h2>
+          <p class="secondary-text">Aspiring Data Scientist with a strong command of Python, SQL, and foundational knowledge in Machine Learning, Deep Learning, and NLP. Eager to develop and deploy cutting-edge models for real-world applications. Proficient in utilizing tools such as pandas, NumPy, and scikit-learn, with a keen interest in mastering TensorFlow and PyTorch for advanced data analysis.</p>
+        </div>
+      </div>
+    </div>
+
+  
+
+
+    <!-- Skills section -->
+    <div class="empty-div" id="skills"></div>
+    <div class="container">
+      <div class="px-4 py-5 my-5 text-center">
+        <h2 class="fw-bold text-body-emphasis lh-1 mb-3 section-heading">My skills</h2>
+        <div class="col-lg-10 mx-auto">
+          <p class="mb-4 secondary-text">
+            These are some of my skills that I can work with
+          </p>
+          <div class="row row-cols-1 row-cols-md-3 mb-3 text-start">
+            <div class="col">
+              <div class="card shadow mb-4 rounded-3 skills-card">
+                <div class="card-body">
+                  <h5 style="color: #14213d;">Python</h5>
+                  <p class="card-text">
+                    Proficient in utilizing Python for data analysis, manipulation, and modeling, with a strong emphasis on writing efficient code.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow mb-4 rounded-3 skills-card">
+                <div class="card-body">
+                  <h5 style="color: #14213d;">Machine Learning</h5>
+                  <p class="card-text">
+                    Proficient in implementing various machine learning algorithms for predictive modeling and data-driven insights.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow mb-4 rounded-3 skills-card">
+                <div class="card-body">
+                  <h5 style="color: #14213d;">Deep Learning</h5>
+                  <p class="card-text">
+                    Knowledgeable about the fundamentals of deep learning methodologies and their applications in solving complex problems.
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="row row-cols-1 row-cols-md-3 mb-3 text-start">
+            <div class="col">
+              <div class="card shadow mb-4 rounded-3 skills-card">
+                <div class="card-body">
+                  <h5 style="color: #14213d;">Natural Language Processing</h5>
+                  <p class="card-text">
+                    Well-versed in the foundational principles of NLP techniques and their application in text analysis and sentiment analysis.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow mb-4 rounded-3 skills-card">
+                <div class="card-body">
+                  <h5 style="color: #14213d;">SQL</h5>
+                  <p class="card-text">
+                    Proficient in querying and managing large datasets, ensuring data integrity and reliability for comprehensive analysis and reporting.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow mb-4 rounded-3 skills-card">
+                <div class="card-body">
+                  <h5 style="color: #14213d;">C++</h5>
+                  <p class="card-text">
+                    Proficient in implementing and optimizing data structures and algorithms in C++, ensuring efficient and scalable solutions for complex computational problems.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+
+
+    <!-- Projects section -->
+
+    <div class="container">
+      <div class="empty-div" id="projects"></div>
+      <div class="px-4 py-5 my-5 text-center">
+        <h2 class="fw-bold text-body-emphasis lh-1 mb-3">My projects</h2>
+        <div class="col-lg-10 mx-auto">
+          <p class="mb-4 secondary-text">
+            These are some of my rescent project, you can check them out, they are on my <a href="https://github.com/Heramb2001" target="_blank" class="github-link">GitHub</a>.
+          </p>
+          <div class="row row-cols-1 row-cols-md-2 mb-3 text-start">
+
+            <div class="col">
+              <div class="card shadow mb-4 rounded-3 projects-card">
+                <div class="card-body">
+                  <h5 style="color: #14213d;">Indian Traffic Sign Classification</h5>
+                  <p class="card-text">
+                    •Successfully created a specialized platform for traffic sign classification in Indian roadways with a dataset of 2,800 images .<br>
+                    •Achieved over 90% accuracy covering 11 distinct classes.
+                  </p>
+                  <a href="https://github.com/Heramb2001/Indian-Traffic-sign-classification" target="_blank">
+                    <button type="button" class="btn project-button">Learn more</button>
+                  </a>
+                </div>
+              </div>
+              
+              <div class="card shadow mb-4 rounded-3 projects-card">
+                <div class="card-body">
+                  <h5 style="color: #14213d;">OlympiMetrics
+                  </h5>
+                  <p class="card-text">
+                    •Spearheaded 'OlympiMetrics,' leveraging Python for in-depth analysis of Olympic data from 120+ years, encompassing 271116 rows and 15 columns.<br>
+                    •Leveraged interactive visualizations to highlight trends in 4 different categories, enabling stakeholders to make data-driven decisions.
+                  </p>
+                  <a href="https://github.com/Heramb2001/OlympiMetrics" target="_blank">
+                    <button type="button" class="btn project-button">Learn more</button>
+                  </a>
+                </div>
+              </div>
+
+              <div class="card shadow mb-4 rounded-3 projects-card">
+                <div class="card-body">
+                  <h5 style="color: #14213d;">RecoGenius</h5>
+                  <p class="card-text">
+                    •Deployed a data-driven solution to aid investors and individuals in identifying similar 5 startups based on their preferences and criteria.<br>
+                    •Achieved an accuracy of over 85% in identifying startup opportunities.
+                  </p>
+                  <a href="https://github.com/Heramb2001/Startup-Recommendation-System" target="_blank">
+                    <button type="button" class="btn project-button">Learn more</button>
+                  </a>
+                </div>
+              </div>
+
+              
+
+            </div>
+
+            <div class="col">
+              <div class="card shadow mb-4 rounded-3 projects-card">
+                <div class="card-body">
+                  <h5 style="color: #14213d;">Fitness Weber</h5>
+                  <p class="card-text">
+                     •Developed a comprehensive web-based project providing 100+ resources on Gym workouts and Home workouts.<br>
+                     •Incorporated 100+ high-quality videos and instructional GIFs to enhance user understanding and engagement.
+                  </p>
+                  <a href="https://github.com/Heramb2001/Fitness_Weber" target="_blank">
+                    <button type="button" class="btn project-button">Learn more</button>
+                  </a>
+                </div>
+              </div>
+
+              <div class="card shadow mb-4 rounded-3 projects-card">
+                <div class="card-body">
+                  <h5 style="color: #14213d;">Panacea Of Startup</h5>
+                  <p class="card-text">
+                    •Collaboratively implemented an awareness platform for emerging startups and facilitated their growth.<br>
+                    •Enabled investors to discover and support well-suited startups.<br>
+                    •Facilitated investment opportunities to foster the growth of identified startups.
+                  </p>
+                  <a href="https://github.com/Heramb2001/Panacea-of-startup" target="_blank">
+                    <button type="button" class="btn project-button">Learn more</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- <div class="row row-cols-1 row-cols-md-3 mb-3 text-start">
+            <div class="col">
+              <div class="card shadow mb-4 rounded-3 projects-card">
+                <div class="card-body">
+                  <h5 style="color: #14213d;">Pancea for startups</h5>
+                  <p class="card-text">
+                    It is a web platform for Startup Ecosystem in India to help startups and investors grow 
+                    together, made using HTML, CSS, JavaScript, Python, and Django.
+                  </p>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col">
+              <div class="card shadow mb-4 rounded-3 projects-card">
+                <div class="card-body">
+                  <h5 style="color: #14213d;">Pancea for startups</h5>
+                  <p class="card-text">
+                    It is a web platform for Startup Ecosystem in India to help startups and investors grow 
+                    together, made using HTML, CSS, JavaScript, Python, and Django.
+                  </p>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col">
+              <div class="card shadow mb-4 rounded-3 projects-card">
+                <div class="card-body">
+                  <h5 style="color: #14213d;">Pancea for startups</h5>
+                  <p class="card-text">
+                    It is a web platform for Startup Ecosystem in India to help startups and investors grow 
+                    together, made using HTML, CSS, JavaScript, Python, and Django.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Contact section -->
+
+    <div class="container">
+      <div class="empty-div" id="contact"></div>
+      <div class="px-4 py-5 my-5 text-center">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Contact</h1>
+        <div class="col-lg-10 mx-auto">
+          <p class="mb-4 secondary-text">
+            Get in touch with me by your favourite method.
+          </p>
+          
+          <!-- Buttons -->
+          <div class="row row-cols-1 row-cols-md-3 mb-3 text-start">
+            <div class="col">
+              <a href="https://www.linkedin.com/in/heramb-bharambe-451394206/" class="btn d-grid get-in-touch-buttons">Linkedin</a>
+            </div>
+            <div class="col">
+              <a href="https://www.youtube.com/@HerambYt/featured" class="btn d-grid get-in-touch-buttons">YouTube</a>
+            </div>
+            <div class="col">
+              <a href="https://www.instagram.com/heramb_11/" class="btn d-grid get-in-touch-buttons">
+                Instagram
+              </a>
+            </div>
+            
+            
+            
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="px-4 py-5 my-5 text-center">
+      <h4 class="visit-my-github">Visit my GitHub profile</h4>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4 secondary-text">
+          My all project on GitHub are open, you can access and play with them.
+        </p>
+        <div class="gap-2 d-sm-flex justify-content-center">
+          <a href="https://github.com/Heramb2001">
+            <button type="button" class="btn px-4 gap-3 github-button">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+              </svg>
+            </button>
+          </a>
+          <a href="https://github.com/Heramb2001">
+            <button type="button" class="btn px-4 github-button">My GitHub</button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <br>
+
+
+
+    <!-- Footer -->
+
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#home" class="nav-link px-2 text-body-secondary">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link px-2 text-body-secondary">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link px-2 text-body-secondary">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link px-2 text-body-secondary">Projects</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link px-2 text-body-secondary">Contact</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2023 Heramb, All rights are reserved.</p>
+      </footer>
+    </div>
+
+
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
